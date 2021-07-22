@@ -65,7 +65,7 @@ input[type="checkbox"] {
   width: 30px;
   height: 30px; 
   background-color:transparent;
-  border: 1px solid green;
+  border: 1px solid #20c920;
   border-radius: 50%;
   display: inline-flex;
   justify-content: center;
@@ -75,7 +75,7 @@ input[type="checkbox"] {
 .tick::before {
   content: '✓';
   font-size: 22px;
-  color: green;
+  color: #20cf20;
   display: none;
 }
 .done .tick::before {
