@@ -8,7 +8,8 @@ _Página inicial da aplicação_
 ![Aplicattion](https://user-images.githubusercontent.com/64505863/126693383-7229c91d-f951-48c0-a4c9-cfeaf845a34a.gif)
 _Funcionamento da aplicação_
 
-
+## Link para a aplicação:
+https://larissasiq.github.io/to-do-list/
 ## Feito por:
 * [Larissa Siqueira](https://github.com/LarissaSiq)
 
