@@ -18,7 +18,7 @@ function addTodo(text) {
             <input id="$(todo.id" type="checkbox"/>
             <label for="$(todo.id)" class="tick js-tick"></label>
             <span>${todo.text}</span>
-            <button class="delete-todo js-delete-todo">
+            <button class="delete-todo">
             <svg>
                 <use href="#delete-icon"></use>
             </svg>
@@ -36,9 +36,10 @@ function checkTodo(key){
     const item = document.querySelector(`[data-key='${key}']`)
     if(todoItems[index].checked){
         item.classList.add('done');
-    }else {
+    }else{
         item.classList.remove('done');
     }
+
 }
 //verifica evento formulario e valor input
 const form = document.querySelector('.js-form');
@@ -62,4 +63,18 @@ list.addEventListener('click', event => {
         checkTodo(itemKey)
 
     }
+})
+
+//apaga item da lista
+
+function deleteTodo(key){
+    const item = document.querySelector(`[data-key='${key}']`)
+            item.remove();
+    
+}
+const delet = document.querySelector('.js-todo-list').addEventListener("click", event => {
+   if(event.target.classList.contains('delete-todo')){
+    const itemKey = event.target.parentElement.dataset.key
+    deleteTodo(itemKey)
+    }    
 })
