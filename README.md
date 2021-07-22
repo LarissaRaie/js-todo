@@ -9,7 +9,7 @@ _Página inicial da aplicação_
 _Funcionamento da aplicação_
 
 ## Link para a aplicação:
-https://larissasiq.github.io/to-do-list/
+[https://larissasiq.github.io/to-do-list/](https://larissasiq.github.io/to-do-list/)
 ## Feito por:
 * [Larissa Siqueira](https://github.com/LarissaSiq)
 
